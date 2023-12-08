@@ -39,6 +39,9 @@
   {{ seo_tags }}
 
   <title>
+    {%- if page.layout == 'home' -%}
+      {{ assign page.title = paginator.page }}
+    {%- endif -%}
     {%- unless page.url == '/' -%}
       {{ page.title | append: ' | ' }}
     {%- endunless -%}
