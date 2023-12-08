@@ -101,7 +101,7 @@ pwa:
   enabled: true # the option for PWA feature
 
 paginate: 10
-paginate_path: '/postsss/:num'
+paginate_path: '/posts/:num'
 
 # The base URL of your site
 baseurl: ""
