@@ -40,11 +40,12 @@
 
   <title>
     {%- if page.layout == 'home' -%}
-      {% assign page.title = paginator.page %}
+      Posts | Page {{ paginator.page | append: ' | ' }}
+    {%- else -%}
+      {%- unless page.url == '/' -%}
+        {{ page.title | append: ' | ' }}
+      {%- endunless -%}
     {%- endif -%}
-    {%- unless page.url == '/' -%}
-      {{ page.title | append: ' | ' }}
-    {%- endunless -%}
     {{ site.title }}
   </title>
 
