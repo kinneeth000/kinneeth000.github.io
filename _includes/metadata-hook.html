@@ -1,6 +1,6 @@
 <script type="text/javascript">
-function sendMessage<T>(message: T) {
-  const iframe = document.querySelector<HTMLIFrameElement>('iframe.giscus-frame');
+function sendMessage(message) {
+  const iframe = document.querySelector('iframe.giscus-frame');
   if (!iframe) return;
   iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
 }
