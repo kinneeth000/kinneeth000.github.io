@@ -40,7 +40,7 @@
 
   <title>
     {%- if page.layout == 'home' -%}
-      {{ assign page.title = paginator.page }}
+      {% assign page.title = paginator.page %}
     {%- endif -%}
     {%- unless page.url == '/' -%}
       {{ page.title | append: ' | ' }}
