@@ -125,6 +125,12 @@ collections:
 
 defaults:
   - scope:
+      path: ""
+      type: permalink
+    values:
+      layout: page
+      permalink: /
+  - scope:
       path: "" # An empty string here means all files in the project
       type: posts
     values:
