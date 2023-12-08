@@ -3,6 +3,7 @@ title: Hello World
 date: 2023-04-04 12:05:03 
 categories: [a]
 tags: [noborder]
+pin: true
 ---
 
 There is no border.
