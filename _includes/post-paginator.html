@@ -47,7 +47,7 @@
         <li class="page-item {% if i == paginator.page %} active{% endif %}">
           <a
             class="page-link"
-            href="{% if i > 1 %}{{ site.paginate_path | replace: ':num', i | relative_url }}{% else %}{% assign p_path = site.paginate_path | split: '/' %}{{ p_path | slice: 0, (p_path | size | minus: 1) | join: '/' | relative_url }}{% endif %}"
+            href="{% if i > 1 %}{{ site.paginate_path | replace: ':num', i | relative_url }}{% else %}{% assign p_path = site.paginate_path | split: '/' %}{% assign l_path = p_path | size | minus: 1 %}{{ p_path | slice: 0, l_path | join: '/' | relative_url }}{% endif %}"
           >
             {{- i -}}
           </a>
