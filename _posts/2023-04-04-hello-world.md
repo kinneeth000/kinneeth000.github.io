@@ -8,6 +8,11 @@ pin: true
 
 There is no border.
 
+# The Beginning
+
+eeeeeee
+
+<!--
 <script src="https://giscus.app/client.js"
         data-repo="kinneeth000/kinneeth000.github.io"
         data-repo-id="R_kgDOK3I_Ig"
@@ -23,4 +28,4 @@ There is no border.
         data-loading="lazy"
         crossorigin="anonymous"
         async>
-</script>
+</script>-->
