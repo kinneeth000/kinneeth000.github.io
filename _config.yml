@@ -124,12 +124,12 @@ collections:
     sort_by: order
 
 defaults:
-  - scope:
-      path: index.html
-      type: permalink
-    values:
-      layout: page
-      permalink: /
+#   - scope:
+#       path: index.html
+#       type: permalink
+#     values:
+#       layout: page
+#       permalink: /
   - scope:
       path: "" # An empty string here means all files in the project
       type: posts
