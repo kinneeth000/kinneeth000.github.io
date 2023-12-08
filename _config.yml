@@ -103,7 +103,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://kinneeth000.github.io/foo"
+baseurl: "https://kinneeth000.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
