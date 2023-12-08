@@ -125,7 +125,7 @@ collections:
 
 defaults:
   - scope:
-      path: ""
+      path: index.html
       type: permalink
     values:
       layout: page
