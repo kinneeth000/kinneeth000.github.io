@@ -1,4 +1,3 @@
 ---
 layout: archives
-permalink: /archives
 ---
